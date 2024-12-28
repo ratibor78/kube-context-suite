@@ -32,7 +32,6 @@ def get_current_context():
     except Exception as e:
         return f"Unexpected error: {e}"
 
-
 def display_context(context):
     """
     Display the current context with styled output.
@@ -45,7 +44,12 @@ def display_context(context):
     # Stylish output
     print(f"\n{CYAN}{BOLD}{K8S_SYMBOL} K8s Context: {RESET} {context}\n")
 
-
-if __name__ == "__main__":
+def main():
+    """
+    The main entry point for the 'kube-prompt' command.
+    """
     current_context = get_current_context()
     display_context(current_context)
+
+if __name__ == "__main__":
+    main()

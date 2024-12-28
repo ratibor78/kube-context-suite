@@ -114,8 +114,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 2. **ksw command not found**
    - Verify the installation with `pip list | grep kube-context-suite`
-   - Check if Python scripts are in your PATH
-
+   - Check if `~/.local/bin` are in your `PATH` if nope add `export PATH="$HOME/.local/bin:$PATH"` to the end of your `~/.bashrc` file
+   
 3. **Kubeconfig errors**
    - Verify your kubeconfig file exists and is valid
    - Check permissions on your kubeconfig file
