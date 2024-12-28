@@ -26,15 +26,10 @@ A lightweight suite of tools designed to streamline Kubernetes context managemen
 
 ## 📦 Installation
 
-### Via pip (Recommended)
-```bash
-pip install kube-context-suite
-```
-
 ### Manual Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/kube-context-suite
+git clone https://github.com/ratibor78/kube-context-suite
 cd kube-context-suite
 
 # Install the package
