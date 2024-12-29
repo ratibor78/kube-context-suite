@@ -84,6 +84,10 @@ The suite uses your existing kubeconfig file, typically located at:
 - Default path: `~/.kube/config`
 - Custom path: Set via `KUBECONFIG` environment variable
 
+## 📦 Uninstall 
+
+Just run script `./scripts/uninstall.sh` this will remove scripts from your configs
+
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
