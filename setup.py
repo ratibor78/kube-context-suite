@@ -14,11 +14,11 @@ setup(
         ],
     },
     author="Nizhegolenko Oleksii",
-    author_email="your.email@example.com",
+    author_email="ratibor78@gmail.com",
     description="Kubernetes Context Management Suite",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/kube-context-suite",
+    url="https://github.com/ratibor78/kube-context-suite",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
